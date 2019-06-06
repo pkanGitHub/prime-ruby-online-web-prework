@@ -1,3 +1,5 @@
-def prime? (num)
-  (2..(num-1)).none? {|n|num % n == 0}
+def prime?(num)
+for i in 2...num
+return false if num % i == 0
 end
+true
